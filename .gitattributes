@@ -1,0 +1,11 @@
+# Python 檔案自動換行處理
+*.py text eol=lf
+
+# Markdown / 文本檔案自動換行
+*.md text
+*.txt text
+
+# SQLite 資料庫是二進位檔案
+*.db binary
+
+.vscode/** text eol=lf
